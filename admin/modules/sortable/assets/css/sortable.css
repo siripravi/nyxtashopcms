@@ -1,0 +1,12 @@
+.sortable-handler {
+    cursor: grab;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+}
+.sortable-chosen {
+}
+.sortable-ghost {
+}
+.sortable-drag {
+    opacity: 0;
+}

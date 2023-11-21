@@ -1,0 +1,1 @@
+<?= app\modules\cart\widgets\CartWidget::widget();  ?>
