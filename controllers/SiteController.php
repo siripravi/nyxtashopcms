@@ -85,6 +85,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $this->layout = "@app/themes/demo/layouts/theme";
         return $this->render('index');
     }
 

@@ -1,0 +1,26 @@
+/* Start How to Order*/
+.how-to-order h2 {
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.how-to-order .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-basis: 0;
+  /*padding-top: 30px;*/
+  overflow-x: auto;
+  margin: 0;
+}
+
+.how-to-order .column {
+  padding: 0 50px;
+  white-space: nowrap;
+}
+
+.how-to-order .row .column p {
+  font-size: 25px;
+  margin: 0;
+}

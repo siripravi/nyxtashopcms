@@ -1,0 +1,588 @@
+@media (max-width: 768px) {
+    .categories > .container .heading h2 {
+        font-size: 48px;
+        font-size: 3.42857rem;
+        margin-top: 55px;
+    }
+}
+@media (max-width: 540px) {
+    .categories > .container .heading h2 {
+        font-size: 24px;
+        font-size: 1.71429rem;
+        margin-top: 27px;
+    }
+}
+@media (max-width: 768px) {
+    .categories > .container .heading p {
+        font-size: 26px;
+        font-size: 1.87214rem;
+        margin-top: 18px;
+    }
+}
+@media (max-width: 540px) {
+    .categories > .container .heading p {
+        font-size: 13px;
+        font-size: 0.95071rem;
+        margin-top: 9px;
+    }
+}
+@media (max-width: 768px) {
+    .categories > .container .types {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+@media (max-width: 540px) {
+    .categories > .container .types {
+        max-width: 310px;
+        margin: 0 auto;
+    }
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+    .categories > .container .types .col {
+        /* on retina, use image that's scaled by 2 */
+        background-image: url("/image/site/img/border%402x.png");
+        background-size: 3px 83px;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+    .categories > .container .types .col:nth-child(1) {
+        margin-top: 0;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+    .categories > .container .types .col:nth-child(2) {
+        background: none;
+        margin-top: 0;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+    .categories > .container .types .col:nth-last-child(-n + 2) .name {
+        background: none;
+    }
+}
+@media (max-width: 768px) {
+    .categories > .container .types .col {
+        height: 336px;
+        margin-top: 27px;
+        background: url("/image/site/img/border-mobile-v.png");
+        background-size: 5px 587px;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+    @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+        .categories > .container .types .col {
+            /* on retina, use image that's scaled by 2 */
+            background-image: url("/image/site/img/border-mobile-v%402x.png");
+            background-size: 5px 587px;
+        }
+    }
+}
+@media (max-width: 540px) {
+    .categories > .container .types .col {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        text-align: left;
+        background: url("/image/site/img/border-mobile-h-s.png");
+        background-size: 315px 4px;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        padding-bottom: 19px;
+    }
+    @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+        .categories > .container .types .col {
+            /* on retina, use image that's scaled by 2 */
+            background-image: url("/image/site/img/border-mobile-h-s%402x.png");
+            background-size: 315px 4px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .categories > .container .types .col img {
+        margin-top: 81px;
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 992px) {
+    .categories > .container .types .col img {
+        max-width: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 22px;
+    }
+}
+@media (max-width: 540px) {
+    .categories > .container .types .col img {
+        width: 80px;
+        height: auto;
+        margin: 20px 0 0;
+        float: left;
+    }
+}
+@media (max-width: 768px) {
+    .categories > .container .types .name {
+        font-size: 29px;
+        font-size: 2.03929rem;
+        background: url("/image/site/img/border-mobile-h.png");
+        background-size: 587px 5px;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        padding-bottom: 57px;
+    }
+    @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+        .categories > .container .types .name {
+            /* on retina, use image that's scaled by 2 */
+            background-image: url("/image/site/img/border-mobile-h%402x.png");
+            background-size: 587px 5px;
+        }
+    }
+}
+@media (max-width: 540px) {
+    .categories > .container .types .name {
+        font-size: 18px;
+        font-size: 1.25rem;
+        background: none;
+        padding-bottom: 0;
+        right: 0;
+        width: 170px;
+        text-align: left;
+        top: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .products {
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 768px) {
+    .products {
+        padding-bottom: 144px;
+    }
+}
+@media (max-width: 540px) {
+    .products {
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 768px) {
+    .products .info {
+        font-size: 20px;
+        font-size: 1.42857rem;
+    }
+}
+@media (max-width: 540px) {
+    .products .info {
+        font-size: 10px;
+        font-size: 0.71429rem;
+        margin-top: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .products .featured .col .img-wrapper {
+        min-height: 394px;
+    }
+}
+@media (max-width: 540px) {
+    .products .featured .col .img-wrapper {
+        min-height: 168px;
+    }
+}
+@media (max-width: 768px) {
+    .products .featured .col .img-wrapper img {
+        width: 90%;
+        height: auto;
+    }
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+    .products .featured .col:last-child {
+        /* on retina, use image that's scaled by 2 */
+        background-image: url("/image/site/img/border-big%402x.png");
+        background-size: 3px 293px;
+    }
+}
+.products .featured .col:last-child .price {
+    margin-left: -64px;
+}
+@media (max-width: 768px) {
+    .products .featured .col:last-child {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 991px) {
+    .products .featured .price {
+        top: -18px;
+        right: 0;
+    }
+}
+@media (max-width: 768px) {
+    .products .featured .price {
+        background: url("/image/site/img/coin-mobile.png");
+        background-size: 156px 156px;
+        right: 50px;
+        top: 0;
+        font-size: 42px;
+        font-size: 3.02643rem;
+        padding-top: 51px;
+        width: 156px;
+        height: 156px;
+    }
+    @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+        .products .featured .price {
+            /* on retina, use image that's scaled by 2 */
+            background-image: url("/image/site/img/coin-mobile%402x.png");
+            background-size: 156px 156px;
+        }
+    }
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+    .products .featured .price {
+        /* on retina, use image that's scaled by 2 */
+        background-image: url("/image/site/img/coin%402x.png");
+        background-size: 81px 81px;
+    }
+}
+@media (max-width: 540px) {
+    .products .featured .price {
+        background: url("/image/site/img/coin.png");
+        background-size: 72px 72px;
+        right: 22px;
+        top: -9px;
+        padding-top: 20px;
+        width: 72px;
+        height: 72px;
+        font-size: 22px;
+        font-size: 1.57143rem;
+    }
+    @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+        .products .featured .price {
+            /* on retina, use image that's scaled by 2 */
+            background-image: url("/image/site/img/coin%402x.png");
+            background-size: 72px 72px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .products .featured .price .per {
+        right: 34px;
+        top: -12px;
+        font-size: 23px;
+        font-size: 1.65071rem;
+    }
+}
+@media (max-width: 540px) {
+    .products .featured .price .per {
+        font-size: 12px;
+        font-size: 0.82571rem;
+        top: 0;
+        right: 0;
+    }
+}
+@media (max-width: 768px) {
+    .products .featured .name {
+        font-size: 48px;
+        font-size: 3.42857rem;
+    }
+}
+@media (max-width: 768px) {
+    .products .featured .name {
+        font-size: 24px;
+        font-size: 1.71429rem;
+    }
+}
+@media (max-width: 991px) {
+    .products .latest {
+        margin-top: 42px;
+    }
+}
+@media (max-width: 540px) {
+    .products .latest {
+        margin-top: 0;
+        padding-bottom: 75px;
+    }
+}
+@media (max-width: 768px) {
+    .products .latest .carousel-control {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+    .products .latest .carousel-control.next {
+        right: -40px;
+    }
+}
+@media (min-width: 1200px) {
+    .products .latest .carousel-control.prev {
+        left: -40px;
+    }
+}
+@media (max-width: 768px) {
+    .products .latest .item {
+        display: block;
+    }
+}
+@media (min-width: 1200px) {
+    .products .latest .item {
+        min-height: 566px;
+    }
+}
+@media (max-width: 991px) {
+    .products .latest .col {
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 540px) {
+    .products .latest .col {
+        margin-top: 30px;
+        min-height: 176px;
+    }
+}
+@media (max-width: 768px) {
+    .products .latest .col:nth-child(2n + 1) {
+        clear: left;
+    }
+}
+@media (min-width: 992px) {
+    .products .latest .col:nth-child(4n + 1) {
+        clear: left;
+    }
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+    .products .latest .thumb .new {
+        /* on retina, use image that's scaled by 2 */
+        background-image: url("/image/site/img/red-circle%402x.png");
+        background-size: 65px 65px;
+    }
+}
+@media (max-width: 768px) {
+    .products .latest .thumb .new {
+        background: url("/image/site/img/red-circle-mobile.png");
+        background-size: 97px 97px;
+        width: 97px;
+        height: 97px;
+        line-height: 97px;
+        margin-left: -80px;
+        top: -19px;
+    }
+    @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+        .products .latest .thumb .new {
+            /* on retina, use image that's scaled by 2 */
+            background-image: url("/image/site/img/red-circle-mobile%402x.png");
+            background-size: 97px 97px;
+        }
+    }
+}
+@media (max-width: 540px) {
+    .products .latest .thumb {
+        min-height: initial;
+    }
+    .products .latest .thumb img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .products .latest .name a {
+        font-size: 25px;
+        font-size: 1.78571rem;
+    }
+}
+@media (max-width: 540px) {
+    .products .latest .name a {
+        font-size: 15px;
+        font-size: 1.1rem;
+        line-height: 15px;
+        line-height: 1.07143rem;
+    }
+}
+@media (max-width: 768px) {
+    .products .latest .price {
+        font-size: 25px;
+        font-size: 1.78571rem;
+    }
+}
+@media (max-width: 540px) {
+    .products .latest .price {
+        font-size: 15px;
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+    .products .latest_items_wrapper {
+        margin-bottom: -110px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 540px) {
+    .products .latest_items_wrapper {
+        margin-bottom: 45px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 768px) {
+    .product-detail {
+        padding-top: 0;
+    }
+}
+@media (max-width: 991px) {
+    .product-detail .back {
+        margin-top: -48px;
+        margin-left: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .product-detail .back {
+        position: static;
+        width: auto;
+        margin: 0;
+        margin-left: 0;
+        text-align: center;
+        line-height: 110px;
+    }
+    .product-detail .back span {
+        font-size: 34px;
+        font-size: 2.40286rem;
+    }
+    .product-detail .back img {
+        margin-left: -19%;
+        margin-right: 14%;
+        margin-top: -13px;
+    }
+    .product-detail .back img.visible-xs {
+        display: inline-block !important;
+    }
+}
+@media (max-width: 540px) {
+    .product-detail .back {
+        margin: 0 -15px;
+        margin-top: 40px;
+        line-height: 75px;
+        padding: 0;
+    }
+    .product-detail .back span {
+        font-size: 23px;
+        font-size: 1.61571rem;
+    }
+    .product-detail .back img {
+        width: 31px;
+        height: 31px;
+        margin-top: -5px;
+    }
+}
+@media (max-width: 540px) {
+    .product-detail .show-on-320 {
+        display: block !important;
+        visibility: visible !important;
+    }
+}
+@media (max-width: 540px) {
+    .product-detail .hide-on-320 {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .product-detail .thumb {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .product-detail .thumb {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+}
+@media (max-width: 540px) {
+    .product-detail .thumb {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 991px) {
+    .product-detail .detail {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .product-detail .detail {
+        padding-left: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .product-detail .detail .title {
+        text-align: center;
+        font-size: 48px;
+        font-size: 3.42857rem;
+    }
+}
+@media (max-width: 540px) {
+    .product-detail .detail .title {
+        font-size: 24px;
+        font-size: 1.71429rem;
+        border: 0;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 540px) {
+    .product-detail .detail .price_wrapper {
+        right: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .product-detail .detail .price {
+        font-size: 42px;
+        font-size: 3rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .product-detail .detail .price {
+        font-size: 25px;
+        font-size: 1.78571rem;
+    }
+}
+@media (max-width: 540px) {
+    .product-detail .detail .price {
+        font-size: 31px;
+        font-size: 2.21429rem;
+    }
+}
+@media (max-width: 540px) {
+    .product-detail .detail .description_wrapper {
+        width: 100%;
+        left: 0;
+    }
+}
+@media (max-width: 768px) {
+    .product-detail .detail .description {
+        font-size: 28px;
+        font-size: 2rem;
+        line-height: 33px;
+        line-height: 2.35714rem;
+    }
+}
+@media (max-width: 540px) {
+    .product-detail .detail .description {
+        font-size: 16px;
+        font-size: 1.14286rem;
+        line-height: 17px;
+        line-height: 1.17857rem;
+        text-align: center;
+    }
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+    .product-detail .detail .form .styled-select {
+        /* on retina, use image that's scaled by 2 */
+        background-image: url("/image/site/img/down-arrow%402x.png");
+        background-size: 13px 7px;
+    }
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+    .product-detail .detail .form .buy-button {
+        /* on retina, use image that's scaled by 2 */
+        background-image: url("/image/site/img/buy-icon%402x.png");
+        background-size: 19px 25px;
+    }
+}

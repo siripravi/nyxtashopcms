@@ -1,0 +1,78 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+//@import "../../../../node_modules/bootstrap/scss/functions";
+
+// my custom colors
+$portfolio-theme: (
+  "blackhole": #111111,
+  "onion": #59316b
+);
+$starorange: #df711b;
+$custom-theme-colors: (
+  "starorange": $starorange
+);
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+//@import "../../../../node_modules/bootstrap/scss/variables";
+//@import "../../../../node_modules/bootstrap/scss/mixins";
+//@import "../../../../node_modules/bootstrap/scss/_maps";
+
+
+//@import "../../../../node_modules/bootstrap/scss/utilities";
+
+
+
+// 4. Include any optional Bootstrap components as you like
+//@import "../../../../node_modules/bootstrap/scss/root";
+//@import "../../../../node_modules/bootstrap/scss/reboot";
+//@import "../../../../node_modules/bootstrap/scss/type";
+//@import "../../../../node_modules/bootstrap/scss/images";
+//@import "../../../../node_modules/bootstrap/scss/containers";
+//@import "../../../../node_modules/bootstrap/scss/grid";
+
+//@import "../../../../node_modules/bootstrap/scss/nav";
+//@import "../../../../node_modules/bootstrap/scss/navbar";
+
+/** One-stop solution **/
+$primary: #EAA636;
+$secondary: #545454;
+$light: #FDF5EB;
+$dark: #1E1916;
+
+
+//$font-family-base: 'Roboto', sans-serif;
+$font-family-sans-serif: "Montserrat", sans-serif;
+//$headings-font-family: 'Playfair Display', serif;
+
+$body-color: $secondary;
+
+$headings-color: $dark;
+
+$headings-font-weight: 700;
+
+$display-font-weight: 700;
+
+$enable-responsive-font-sizes: true;
+
+$border-radius: 6px;
+
+$border-radius-sm: $border-radius;
+
+$border-radius-lg: $border-radius;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;
+//@import "base/base";
+//@import "base/variables";
+
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
+
+//@import 'libs/vars';
+//@import 'libs/functions';
+//@import 'libs/mixins';
+//@import 'libs/vendor';
+//@import 'libs/breakpoints';
+
+

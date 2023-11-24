@@ -9,6 +9,7 @@ $config = [
     'sourceLanguage' => 'en',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'layout' => '@app/themes/demo/layouts/theme',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm' => '@vendor/npm-asset',
@@ -19,6 +20,16 @@ $config = [
             'class' => Collection::class,
             'clients' => require __DIR__ . '/authclients.php',
         ],
+        'view' => [
+            'theme' => [
+               'pathMap' => [ 
+                  '@app/views' => [ 
+                      '@webroot/themes/demo/views',
+
+                   ]
+               ],
+             ],
+            ], // here demo is your folder name
         /*'assetManager' => [
             'linkAssets' => true,
             'appendTimestamp' => true,

@@ -1,0 +1,94 @@
+/**  CONTACT FORM **/
+/* Start Contact Us Form */
+.contact-section h2 {
+  padding-top: 40px;
+  font-size: 40px;
+  margin: 0;
+  color: white;
+}
+
+.contact-section .subtitle p {
+  font-size: 15pt;
+}
+
+.contact-section button {
+  border-radius: 30px;
+  padding-top: 15px;
+}
+
+.contact-us {
+  /*background: #282c2f;*/
+  background-color: #72452f;
+  padding: 0px 300px;
+  padding-bottom: 50px;
+}
+/* End Contact Us Form */
+.contact-section label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+  font-size: 12pt;
+  color: white;
+  line-height: 24pt;
+}
+
+.contact-section input {
+  color: black;
+  margin-bottom: 24pt;
+}
+
+.contact-section h3 {
+  font-weight: normal;
+  font-size: 10pt;
+  line-height: 24pt;
+  font-style: italic;
+  margin: 0 0 0.5em 0;
+}
+
+.contact-section span {
+  font-size: 8pt;
+}
+
+.contact-section em {
+  color: #ff7380ff;
+  font-weight: bold;
+}
+
+.contact-section input,
+textarea {
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  background: white;
+  padding-left: 5px;
+  outline: none;
+}
+
+.contact-section input:focus,
+textarea:focus {
+  border: 1px solid #ff7380ff;
+}
+
+.contact-section textarea {
+  color: black;
+  resize: none;
+}
+
+.contact-section button:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.contact-section .g-recaptcha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us .captcha-error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End Contact Us Form */

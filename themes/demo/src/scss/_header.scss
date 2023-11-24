@@ -1,0 +1,256 @@
+/*===========================
+      02.HEADER css 
+===========================*/
+
+/*===== NAVBAR =====*/
+
+.navbar-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  @include transition(0.3s);
+}
+
+.sticky {
+  position: fixed;
+  z-index: 99;
+  background-color: $white;
+  @include box-shadow(0px 20px 50px 0px rgba(0, 0, 0, 0.05));
+  @include transition(0.3s);
+
+  & .navbar {
+    padding: 10px 0;
+
+    @media #{$md} {
+      padding: 20px 0;
+    }
+    @media #{$xs} {
+      padding: 20px 0;
+    }
+
+    .navbar-nav {
+      .nav-item {
+        a {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+.navbar {
+  padding: 25px 0;
+  border-radius: 5px;
+  position: relative;
+  @include transition(0.3s);
+}
+
+.navbar-brand {
+  padding: 0;
+
+  img {
+    max-width: 150px;
+  }
+}
+
+.navbar-toggler {
+  padding: 0;
+
+  & .toggler-icon {
+    width: 30px;
+    height: 2px;
+    background-color: $white;
+    display: block;
+    margin: 5px 0;
+    position: relative;
+    @include transition(0.3s);
+  }
+
+  &.active {
+    & .toggler-icon {
+      &:nth-of-type(1) {
+        @include transform(rotate(45deg));
+        top: 7px;
+      }
+
+      &:nth-of-type(2) {
+        opacity: 0;
+      }
+
+      &:nth-of-type(3) {
+        @include transform(rotate(135deg));
+        top: -7px;
+      }
+    }
+  }
+}
+
+.navbar-collapse {
+  @media #{$md} {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    /* background-color: $white;*/
+    background-color: #1f1919;
+    z-index: 9;
+    @include box-shadow(0px 15px 20px 0px rgba(0, 0, 0, 0.1));
+    padding: 5px 12px;
+  }
+
+  @media #{$xs} {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: $white;
+    z-index: 9;
+    @include box-shadow(0px 15px 20px 0px rgba(0, 0, 0, 0.1));
+    padding: 5px 12px;
+  }
+}
+
+.navbar-nav {
+  & .nav-item {
+    margin-right: 45px;
+    position: relative;
+
+    @media #{$lg} {
+      margin-right: 30px;
+    }
+
+    @media #{$md} {
+      margin: 0;
+    }
+
+    @media #{$xs} {
+      margin: 0;
+    }
+
+    & a {
+      font: $font2;
+      font-size: 16px;
+      font-weight: 500;
+      color: $white;
+      @include transition(0.3s);
+      padding: 10px 0;
+      position: relative;
+
+      @media #{$md} {
+        display: block;
+        padding: 4px 0;
+        color: $black;
+      }
+
+      @media #{$xs} {
+        display: block;
+        padding: 4px 0;
+        color: $black;
+      }
+    }
+
+    &.active,
+    &:hover {
+      & > a {
+        color: $theme-color;
+      }
+    }
+  }
+}
+
+.navbar-btn {
+  @media #{$md} {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    @include transform(translateY(-50%));
+  }
+
+  @media #{$xs} {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    @include transform(translateY(-50%));
+  }
+}
+
+.sticky {
+  & .navbar-toggler {
+    & .toggler-icon {
+      background-color: $black;
+    }
+  }
+
+  & .navbar-nav {
+    & .nav-item {
+      & a {
+        color: $black;
+      }
+
+      &.active,
+      &:hover {
+        & > a {
+          color: $theme-color;
+        }
+      }
+    }
+  }
+}
+
+#navbarSupportedContent ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#navbarSupportedContent ul li {
+  display: inline-block;
+  margin: 0 1em 0 1em;
+  padding: 0.35em 0.75em 0.35em 0.75em;
+  border-radius: 0.5em;
+}
+#navbarSupportedContent ul li.active {
+  background: #999;
+}
+#navbarSupportedContent ul li.active a {
+  color: #fff;
+  text-decoration: none;
+}
+.dropotron {
+  background: #444;
+  border-radius: 0.5em;
+  list-style: none;
+  margin: 0;
+  min-width: 10em;
+  padding: 0.75em 1em 0.75em 1em;
+}
+.dropotron > li {
+  border-top: solid 1px #555;
+  margin: 0;
+  padding: 0;
+}
+.dropotron > li:first-child {
+  border-top: 0;
+}
+.dropotron > li > a {
+  color: #ccc;
+  display: block;
+  padding: 0.5em 0 0.5em 0;
+  text-decoration: none;
+}
+.dropotron > li.active > a,
+.dropotron > li:hover > a {
+  color: #fff;
+}
+.dropotron.level-0 {
+  margin-top: 1.25em;
+}
+.dropotron.level-0:before {
+  content: "";
+  position: absolute;
+  border-bottom: solid 0.5em #444;
+  border-left: solid 0.5em transparent;
+  border-right: solid 0.5em transparent;
+  top: -0.5em;
+}
